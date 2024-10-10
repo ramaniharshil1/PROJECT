@@ -1,0 +1,49 @@
+
+header img {
+  width: 150px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}/* Layout container */
+.layout-container {
+    background-color: #f8f9fa;
+  }
+  
+  /* Header container */
+  .header-container {
+    margin: 0;
+  }
+  
+  /* Logo text */
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    gap: 15px;
+  }
+  
+  /* Custom style for navigation links */
+  .nav-link-custom {
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-link-custom:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Footer container */
+  .footer-container {
+    background-color: #343a40;
+    color: #fff;
+  }
+  

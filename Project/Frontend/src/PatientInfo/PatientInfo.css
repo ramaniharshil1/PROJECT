@@ -1,0 +1,212 @@
+/* Container styling */
+.patientInfoContainer {
+  width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Heading styling */
+.patientInfoHeading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-info {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #1976D2;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-warning {
+  background-color: #FF9800;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #F57C00;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #45A049;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+td .btn {
+  margin-right: 10px;
+}
+
+/* Container styling */
+.patientDetailContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.patientDetailHeading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+.patientDetailTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patientDetailTable th,
+.patientDetailTable td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Strong emphasis styling */
+.patientDetailTable th strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Alternating row colors for better readability */
+.patientDetailTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.patientDetailTable tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Patient detail paragraph styling */
+.patientDetailContainer p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Container styling */
+.patientEditContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.patientEditHeading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+/* Vertical form styling */
+.patientEditForm {
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input and select styling */
+.form-control {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.btn {
+  margin-top: 20px; 
+}
+
+
+/* delete PatientInfo.css */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
